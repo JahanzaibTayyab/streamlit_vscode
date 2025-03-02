@@ -1,0 +1,17 @@
+[project]
+name = "streamlit-vscode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jahanzaib Tayyab", email = "jtayyab204@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+streamlit-vscode = "streamlit_vscode:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
